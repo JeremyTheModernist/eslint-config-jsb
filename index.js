@@ -4,3 +4,5 @@ const eslintFile = path.join(__dirname,'.eslintrc.js')
 const eslintrc = require(eslintFile);
 
 module.exports = eslintrc;
+
+console.log("your cwd", process.cwd())
