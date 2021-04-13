@@ -25,6 +25,7 @@ module.exports = {
       "linebreak-style": "off",
       "@typescript-eslint/camelcase": "off",
       "react/require-default-props":"off",
+      "react/prop-types": "off",
       "react/jsx-props-no-spreading": "off",
       "react/react-in-jsx-scope": "off",
       "@typescript-eslint/explicit-module-boundary-types": "off", // this ensures that React functions don't have to have a return type like React.FC which is no longer recommended
