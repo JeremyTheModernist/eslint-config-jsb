@@ -6,3 +6,4 @@ const eslintrc = require(eslintFile);
 module.exports = eslintrc;
 
 console.log("your cwd", process.cwd())
+console.log("your source directory", __dirname)
