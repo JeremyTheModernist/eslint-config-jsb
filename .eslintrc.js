@@ -19,7 +19,7 @@ module.exports = {
     parserOptions: {
       ecmaVersion: 2018, // Allows for the parsing of modern JS features
       project: "tsconfig.json", // tells eslint to reference tsconfig for ts settings
-      tsconfigRootDir: __dirname,
+      tsconfigRootDir: process.cwd(),
     },
     rules: {
       "linebreak-style": "off",
