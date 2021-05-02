@@ -1,12 +1,18 @@
 {
   "name": "eslint-config-jsb",
-  "version": "1.0.8",
-  "description": "",
+  "version": "1.0.9",
+  "description": "An eslint config for React and typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "typescript",
+    "prettier",
+    "react",
+    "cypress"
+  ],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
