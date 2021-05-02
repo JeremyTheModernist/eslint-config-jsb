@@ -18,7 +18,7 @@ module.exports = {
     // can be used in ESLint
     parserOptions: {
       ecmaVersion: 2018, // Allows for the parsing of modern JS features
-      project: "tsconfig.json", // tells eslint to reference tsconfig for ts settings
+      project: "tsconfig.json", // tells eslint to reference tsconfig for ts settings, by default this will resolve relative to the current working directory, e.g. where the code is run
     //   tsconfigRootDir: process.cwd(),
     },
     rules: {
